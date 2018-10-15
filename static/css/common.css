@@ -1,0 +1,165 @@
+body, ul, li, h1, h2, h3 {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #EBEBEB;
+}
+
+* {
+    /*color: #fff;*/
+    /*font-family: 'Ubuntu', sans-serif;*/
+    text-align: center;
+    font-size: 16px;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+.leftSection {
+    margin: 0px 0px;
+}
+
+.rightSection {
+    margin: 0px 0px;
+}
+
+.module {
+    background: white;
+}
+
+
+.logo {
+    margin-left: 20px;
+    margin-right: 50px;
+}
+
+.logo img {
+    width: 180px;
+    height: 50px;
+}
+
+.login{
+    float: right;
+}
+
+.art_foot {
+    border-top: 1px solid gainsboro;
+    margin: 10px 20px;
+}
+
+.aboutMe img {
+    width: 200px;
+    height: 200px;
+}
+
+.nickName {
+    margin: 15px 0px;
+}
+
+.remark {
+    margin: 10px 20px;
+}
+
+.myLink{
+    margin-bottom: 10px;
+}
+
+.myLink a {
+    float: left;
+    display: block;
+    padding: 0px 5px 0px 5px;
+    font-size: 15px;
+    border-bottom: 1px solid green;
+    margin: 5px;
+    color: green;
+}
+
+.myLink ul{
+    margin-left: 25px;
+}
+
+.clearfloat{clear:both;height:30px;font-size: 1px;line-height: 0px;}
+
+.foot{
+    background: black;
+    height: 80px;
+    padding-top: 20px;
+}
+
+.foot span{
+    color: white;
+    font-weight: 200;
+}
+
+li {
+    display: inline-block;
+}
+
+.navbar {
+    margin: 0px 25px auto;
+    width: 100%;
+}
+
+.navbar.navbar-default {
+    line-height: 45px;
+    height: 35px;
+    margin: 0px;
+}
+
+.navbar a {
+    padding: 0 20px;
+    margin: 0;
+    color: black;
+    font-size: 16px;
+}
+
+.navbar ul {
+    width: auto;
+}
+
+.navbar ul li {
+    float: left;
+}
+
+.personal {
+    margin: 10px 0px;
+    height: 360px;
+    width: 100%;
+}
+
+.image a {
+    color: green;
+    padding-left: 10px;
+}
+
+.image img {
+    width: 30px;
+    height: 30px;
+}
+
+.image {
+    margin-bottom: 10px;
+}
+
+
+.head_title {
+    float: left;
+    text-align: left;
+    padding: 10px;
+}
+
+.module ul {
+    display: block;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.module ul li {
+    display: block;
+    line-height: 2.0;
+}
+

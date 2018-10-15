@@ -1,0 +1,139 @@
+.writeHead {
+    margin: 10px;
+}
+
+.writeHead span {
+    font-size: 20px;
+    float: left;
+}
+
+.publish {
+    float: right;
+    margin-bottom: 10px;
+}
+
+.write_title{
+    float: left;
+    font-size: 20px;
+    width: 50%;
+    border: none;
+    line-height: 1.5;
+    text-align: left;
+    background: none;
+}
+
+input:focus{
+    outline: none;
+    border: none;
+    border-bottom: 1px solid gainsboro;
+}
+
+.prephoto{
+    display: block;
+    width: 100px;
+    height: 50px;
+    margin: auto;
+}
+
+.blogManage th{
+    text-align: center;
+    line-height: 50px;
+}
+
+tr{
+    padding: 10px 0px;
+}
+
+.leftSection{
+    margin-top: 10px;
+}
+
+.function{
+    height: 50px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.action{
+    float: left;
+}
+
+.search{
+    float: right;
+}
+
+.search input{
+    border: none;
+    border-bottom: 1px solid gainsboro;
+}
+
+#selClass{
+    border-radius: 5px;
+    padding: 5px;
+    width: 125px;
+}
+
+.search label{
+    display: inline-block;
+    margin: 0px 15px;
+}
+
+.search-btn{
+   border: none;
+    background: none;
+    margin: 0px 5px;
+}
+
+
+.myInfo{
+    height: 360px;
+    width: 100%;
+    margin: 10px 0px;
+}
+
+.hotInfo{
+    height: 300px;
+    width: 100%;
+    margin: 10px 0px;
+}
+
+.infoManage table{
+    width: 90%;
+    margin: auto;
+}
+
+.infoManage td{
+    text-align: left;
+    line-height: 5.0;
+    padding: 10px 0px;
+    padding-left: 50px;
+}
+
+.infoManage input{
+    width: 400px;
+    border: none;
+    border-bottom: 1px solid gainsboro;
+    text-align: left;
+}
+
+.infoManage .info_label{
+    text-align: right;
+    padding-right: 30px;
+}
+
+.background_nav{
+    float: left;
+    margin: 10px;
+}
+
+.infoManage{
+    margin-bottom: 10px;
+}
+
+.infoManage .td-btn{
+    padding-left: 300px;
+}
+
+button{
+    margin: 0px 10px;
+}
