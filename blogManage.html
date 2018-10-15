@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>main</title>
+    <link rel="stylesheet" href="static/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="static/css/normalize.css"/>
+    <link rel="stylesheet" type="text/css" href="static/css/htmleaf-demo.css">
+    <link rel="stylesheet" href="static/css/common.css"/>
+    <link rel="stylesheet" href="static/css/background.css">
+</head>
+<body>
+<div class="mpage">
+    <nav class="navbar navbar-default">
+        <ul>
+            <li class="logo"><img src="static/img/D(3).png"/></li>
+            <li class="nav__item active"><a href="#">Home</a></li>
+            <li class="nav__item"><a href="#">Fashion</a></li>
+            <li class="nav__item"><a href="#">Lifestyles</a></li>
+            <li class="nav__item"><a href="#">Travels</a></li>
+            <li class="nav__item"><a href="#">Music</a></li>
+            <li class="nav__item"><a href="#">About us</a></li>
+            <li class="nav__item"><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="mSection">
+        <div class="container-fluid">
+            <div class="leftSection col-md-9">
+                <div class="module function">
+                    <div class="action">
+                        <button type="button" class="btn btn-info">增加</button>
+                        <button type="button" class="btn btn-info">修改</button>
+                        <button type="button" class="btn btn-danger">删除</button>
+                    </div>
+                    <div class="search">
+                        <label>博客标题</label>
+                        <input type="text" class="text-info"/>
+                        <label>博客类型</label>
+                        <select id="selClass">
+                            <option value="">请选择...</option>
+                        </select>
+                        <button class="search-btn"><span class="glyphicon glyphicon-search"></span></button>
+                    </div>
+                </div>
+                <div class="module blogManage">
+                    <table class="table table-condensed table-hover">
+                        <thead>
+                        <tr>
+                            <th>序号</th>
+                            <th>博客标题</th>
+                            <th>博客类别</th>
+                            <th>博客图片</th>
+                            <th>创建时间</th>
+                        </tr>
+                        </thead>
+                        <tr>
+                            <td style="vertical-align: middle">1</td>
+                            <td style="vertical-align: middle">月亮与六便士</td>
+                            <td style="vertical-align: middle">生活随记</td>
+                            <td style="vertical-align: middle"><img class="prephoto" src="static/img/timg.jpg"/></td>
+                            <td style="vertical-align: middle">2018/10/15</td>
+                        </tr>
+                        <tr>
+                            <td style="vertical-align: middle">2</td>
+                            <td style="vertical-align: middle">月亮与六便士</td>
+                            <td style="vertical-align: middle">生活随记</td>
+                            <td style="vertical-align: middle"><img class="prephoto" src="static/img/timg.jpg"/></td>
+                            <td style="vertical-align: middle">2018/10/15</td>
+                        </tr>
+                        <tr>
+                            <td style="vertical-align: middle">3</td>
+                            <td style="vertical-align: middle">月亮与六便士</td>
+                            <td style="vertical-align: middle">生活随记</td>
+                            <td style="vertical-align: middle"><img class="prephoto" src="static/img/timg.jpg"/></td>
+                            <td style="vertical-align: middle">2018/10/15</td>
+                        </tr>
+                        <tr>
+                            <td style="vertical-align: middle">4</td>
+                            <td style="vertical-align: middle">月亮与六便士</td>
+                            <td style="vertical-align: middle">生活随记</td>
+                            <td style="vertical-align: middle"><img class="prephoto" src="static/img/timg.jpg"/></td>
+                            <td style="vertical-align: middle">2018/10/15</td>
+                        </tr>
+                        <tr>
+                            <td style="vertical-align: middle">5</td>
+                            <td style="vertical-align: middle">月亮与六便士</td>
+                            <td style="vertical-align: middle">生活随记</td>
+                            <td style="vertical-align: middle"><img class="prephoto" src="static/img/timg.jpg"/></td>
+                            <td style="vertical-align: middle">2018/10/15</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div class="info  pager">
+                    <button type="button" class="btn btn-info before">上一篇</button>
+                    <button type="button" class="btn btn-info after">下一篇</button>
+                </div>
+            </div>
+
+            <div class="rightSection col-md-3">
+                <div class="module myInfo">
+                        <div class="module_head">
+                            <span class="head_title">My Info</span>
+                        </div>
+                    <div>
+                    </div>
+                </div>
+                <div class="module hotInfo">
+                    <div class="module_head">
+                        <span class="head_title">Hot Info</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="foot">
+    <span>CopyRight © 2018 doubtlift</span>
+</div>
+
+<script src="static/js/jquery-1.11.0.min.js" type="text/javascript"></script>
+<!--<script>window.jQuery || document.write('<script src="static/js/jquery-1.11.0.min.js"><\/script>')</script>-->
+<script type="text/javascript" src="static/js/hoverSlippery.js"></script>
+<script src="static/bootstrap/js/bootstrap.js"></script>
+<script>
+    $(document).ready(function () {
+        //- Default
+        $('.navbar-default').hoverSlippery();
+        //- Twice border
+        $('.twiceBorder').hoverSlippery({
+            border: true,
+            twiceBorder: true
+        })
+    })
+
+</script>
+</body>
+</html>
