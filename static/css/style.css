@@ -30,23 +30,25 @@ h3.space {
 
 .article {
     margin: 10px 0px 20px 0px;
-    height: 360px;
+    height: 300px;
     width: 100%;
 }
 
 .art_photo {
     float: left;
-    margin: 10px 10px 0px 10px;
+    margin: 20px 10px 0px 20px;
+    padding-right: 10px;
 }
 
 .art_photo img {
-    height: 260px;
-    width: 460px;
+    height: 165px;
+    width: 260px;
 }
 
 .art_content {
     text-align: left;
     margin: 10px;
+    padding: 10px 0px 0px 20px;
 }
 
 .art_title {
@@ -78,10 +80,11 @@ h3.space {
 }
 
 .art_summary {
+    text-indent: 26px;
     text-align: left;
     line-height: 2.0;
     color: #888;
-    font-size: 16px;
+    font-size: 18px;
     font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, PingFang SC, Microsoft YaHei, Source Han Sans SC, Noto Sans CJK SC, WenQuanYi Micro Hei, sans-serif;
 }
 
